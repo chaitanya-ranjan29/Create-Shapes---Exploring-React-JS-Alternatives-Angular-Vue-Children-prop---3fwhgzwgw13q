@@ -1,8 +1,10 @@
 import React from 'react'
+import {useState} from 'react';
 import '../styles/App.css';
+
 const App = () => {
 
-  const [shape, setShape] = React.useState("square");
+  const [shape, setShape] = useState("square");
   const [shapesArr, setShapesArr] = useState([]);
 
   // console.log(shape);
