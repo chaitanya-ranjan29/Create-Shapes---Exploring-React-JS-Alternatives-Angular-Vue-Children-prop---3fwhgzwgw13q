@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 const App = () => {
 
-  const [shape, setShape] = useState("square");
+  const [shape, setShape] = React.useState("square");
   const [shapesArr, setShapesArr] = useState([]);
 
   // console.log(shape);
